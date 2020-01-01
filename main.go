@@ -1,3 +1,5 @@
+//simple code
+
 package main
 
 import ("fmt"
