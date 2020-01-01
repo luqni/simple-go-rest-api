@@ -18,6 +18,13 @@ $ cd learn-go-rest-api
 ```bash
 $ git clone https://github.com/luqni/simple-go-rest-api.git 
 ```
+## Set up the HTTP server using Gorilla Mux
+
+Gorilla Mux is a package that implements a request router and dispatcher for matching incoming requests to their respective handler.
+
+```bash
+$ go get -u github.com/gorilla/mux
+```
 
 ## Build main.go
 
