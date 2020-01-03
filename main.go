@@ -9,7 +9,7 @@ import ("fmt"
 	"encoding/json"
 	"github.com/gorilla/mux"
 )
-
+// Struct
 type event struct {
 	ID		string `json:"ID"`
 	Title		string `json:"Title"`
@@ -17,8 +17,8 @@ type event struct {
 }
 
 type allEvents []event
-
-var events = allEvents {
+// Initialitation data dummy on struct
+var event = allEvents {
 	{
 		ID:		"1",
 		Title:		"Introduction to Golang",
